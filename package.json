@@ -1,12 +1,31 @@
 {
   "name": "multi-database-crud-explorer",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository demonstartes basic CRUD operations using Node.js and Express.js across five different databases:\r 1. MongoDB\r 2. Firebase \r 3. MySQL\r 4. PostgreSQL\r 5. DynamoDB",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EshaKhalid25/multi-database-crud-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EshaKhalid25/multi-database-crud-explorer/issues"
+  },
+  "homepage": "https://github.com/EshaKhalid25/multi-database-crud-explorer#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
